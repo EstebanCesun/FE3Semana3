@@ -1,0 +1,6 @@
+<h1>Lista de Tareas Completadas</h1>
+<ul>
+  <li *ngFor="let task of tasks$ | async">
+    {{ task.name }}
+  </li>
+</ul>
